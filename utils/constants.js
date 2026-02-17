@@ -28,17 +28,4 @@ const validationConfig = {
   inactiveButtonClass: "button_disabled",
 };
 
-class Todo {
-  constructor(data, selector) {
-    this.data = data;
-    this.selector = selector;
-  }
-  _setEventListeners() {
-    // add event listeners
-  }
-  getView() {
-    // add handler to create markup
-  }
-}
-
 export { initialTodos, validationConfig };
