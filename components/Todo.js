@@ -41,7 +41,6 @@ class Todo {
     this._todoDeleteBtn = this._todoElement.querySelector(".todo__delete-btn");
 
     todoNameEl.textContent = this._data.name;
-    this._todoDate.Date = this._data.date;
     this._generateCheckboxEl();
     this._setEventListeners();
     this._getTodoDate();
